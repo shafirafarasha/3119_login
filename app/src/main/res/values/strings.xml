@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">3119_login</string>
+
+    <string name="dashboard_text">Ini adalah Halaman Dashboard</string>
     <string name="nama">Shafira</string>
-    <string name="regis">Registrasi</string>
+    <string name="welcome_message">Selamat Datang</string>
+    <string name="belum_punya_akun">Belum punya akun? Daftar disini</string>
+    <string name="pilih_kota">Pilih Kota</string>
+
+    <string-array name="daftar_kota">
+        <item>Yogyakarta</item>
+        <item>Jakarta</item>
+        <item>Surabaya</item>
+        <item>Bandung</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/regis"
+        android:text="@string/welcome_message"
         android:textSize="30dp"
         android:layout_gravity="center"
         ></TextView>
@@ -50,6 +50,15 @@
             android:layout_height="match_parent" />
     </RadioGroup>
 
+    <Spinner
+        android:id="@+id/spinner_domisili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/daftar_kota"
+        android:prompt="@string/pilih_kota"
+        android:layout_marginTop="16dp" />
+
+
     <CheckBox
         android:id="@+id/ketentuan"
         android:layout_width="match_parent"
@@ -61,7 +70,7 @@
         android:layout_height="wrap_content"
         android:text="dafter"
         android:hint="daftar"
-        android:id="@+id/btn_daftar"
+        android:id="@+id/btn_register"
         ></Button>
 
 </LinearLayout>
